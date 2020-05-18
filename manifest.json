@@ -6,7 +6,7 @@
 	"theme_color": "#FB314E",
 	"orientation":"portrait",
 	"display": "standalone",
-	//"start_url": "./?utm_source=web_app_manifest",
+	
 	"start_url": "../index.html?utm_source=web_app_manifest",
 	"scope":"../",
 	"lang":"es-ES", 
@@ -15,11 +15,6 @@
 			"src": "../img/favicon-1024.png",
 			"sizes": "1024x1024",
 			"type": "image/png"
-			
-/*
-			"src": "img/favicon-1024.png",
-      		"sizes": "1024x1024",
-      		"type": "image/png"*/
 		},
 		{
 			"src":"../img/favicon-512.png",
