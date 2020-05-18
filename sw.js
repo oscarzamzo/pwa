@@ -1,6 +1,6 @@
 //Asignan nombre y version de la cache
 
-const CACHE_NAME="V1_cache_Rentas_y_Rentas_sw";
+const CACHE_NAME="V1_cache_Rentas_y_Rentas_sw2";
 
 // Ficheros a cachear en las aplicacion
 var urlsToCache=[
