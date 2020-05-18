@@ -1,12 +1,12 @@
 //Asignan nombre y version de la cache
 
 const CACHE_NAME="V1_cache_Rentas_y_Rentas_sw2";
-// no se modifico
+// parece que es este
 // Ficheros a cachear en las aplicacion
 var urlsToCache=[
 	'../',
 	'../css/estilos.css',
-	'../img/favicon.png'/*,
+	'../img/favicon.png',
 	'../img/1.png',
 	'../img/2.png',
 	'../img/3.png',
@@ -25,7 +25,7 @@ var urlsToCache=[
 	'../img/favicon-96.png',
 	'../img/favicon-64.png',
 	'../img/favicon-32.png',
-	'../img/favicon-16.png'*/
+	'../img/favicon-16.png'
 ];
 
 //Evento install
