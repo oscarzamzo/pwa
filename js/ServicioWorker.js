@@ -5,6 +5,29 @@ const CACHE_NAME="V1_cache_Rentas_y_Rentas";
 // Ficheros a cachear en las aplicacion
 var urlsToCache=[
 	'./',
+	'./css/estilos.css',
+	'./img/favicon.png'/*,
+	'./img/1.png',
+	'./img/2.png',
+	'./img/3.png',
+	'./img/4.png',
+	'./img/5.png',
+	'./img/6.png',
+	'./img/facebook.png',
+	'./img/twitter.png',
+	'./img/instagram.png',
+	'./img/favicon-1024.png',
+	'./img/favicon-512.png',
+	'./img/favicon-384.png',
+	'./img/favicon-256.png',
+	'./img/favicon-192.png',
+	'./img/favicon-128.png',
+	'./img/favicon-96.png',
+	'./img/favicon-64.png',
+	'./img/favicon-32.png',
+	'./img/favicon-16.png'*/
+	/*
+	'./',
 	'../css/estilos.css',
 	'../img/favicon.png',
 	'../img/1.png',
@@ -26,6 +49,7 @@ var urlsToCache=[
 	'../img/favicon-64.png',
 	'../img/favicon-32.png',
 	'../img/favicon-16.png'
+	*/
 ];
 
 //Evento install
