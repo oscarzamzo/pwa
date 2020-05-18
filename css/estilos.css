@@ -1,0 +1,432 @@
+/*body{
+	background: red;
+	font-size: 33px;
+}
+*/
+
+/*Estilos Generales*/
+*{
+	margin:0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: 'Open Sans',Verdana;	
+}
+
+html, body{
+	overflow-x: hidden;/*ocultar los Elementos que se salgan*/
+}
+
+body{
+	background: white;	
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+.container{
+	width: 85%;
+	margin: 0px auto;/*Centrar un bloque*/
+}
+
+/*Estilos de Cabecera*/
+#mainHeader{
+	background: white;
+	height: 100px;
+	line-height: 85px;
+	/*border-bottom:1px solid black;*/
+}
+
+#logo{
+	width: 63%;/*63%*/
+	float: left;
+}
+
+#logo h1{
+	font-weight: bold;
+	font-size: 25px;
+	color: #4D0B62;
+	margin-right: 30px;
+	/*float: right;*/
+}
+#imgLogo{
+	width: 117px;
+	height: 117px;
+	float: left;
+	margin-right: 40px;
+}
+
+#menu{
+	width: 380px;
+	float: left;
+}
+#menu ul li{
+	list-style: none;
+	float: left;
+	margin-left: 17px;
+	margin-right: 17px;
+}
+
+#menu ul li a{
+	color: black;
+}
+
+#menu ul li a:hover{
+	color: #FB314E;
+}
+
+/*Slider*/
+#slider{
+	height: 150px;/*300px;*/
+	background: #FB314E;
+}
+
+#slider h2{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	line-height: 4;/*290px;*/
+	text-shadow: 0px 0px 6px black;
+}
+
+/*Servicios*/
+.subHeader{
+	font-size: 34px;
+	color: #333;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(251, 49, 78,0.3);
+}
+
+.service, .video{
+	width: 33%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.service img{
+	height: 48px;
+	margin-bottom: 20px;
+}
+.service h3{
+	margin-bottom: 10px;
+}
+.service p, .video p{
+	color: #444;
+	text-align: center;
+	display: block;
+	width: 85%;
+	margin:0px auto;
+}
+
+/*Videos*/
+.video iframe{
+	width: 80%;
+	height: 170px;
+}
+
+/*Contactos o pie de pagina*/
+#footer{
+	background: #333;
+	padding-top:5px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+}
+
+#footer .subHeader{
+	color: white;
+}
+
+#network{
+	display: block;
+	width: 216px;
+	margin: 0px auto;
+	list-style: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#network li{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	transition: all 300ms;
+}
+
+#network li:hover{
+	opacity: 0.8;
+	transform: scale(1.1,1.1);
+}
+
+/* Media Query 
+@media all and (min-width: 1000px){
+	#mainHeader{
+		background: black;
+	}
+}
+*/
+@media all and (max-width: 1208px){
+	.container{
+		width: 90%;
+		/*background: black;*/
+	}
+	#imgLogo{
+		margin-right: 20px;
+	}
+}
+
+@media all and (max-width: 1141px){
+	.container{
+		width: 95%;
+		/*background: red;*/
+	}
+	#imgLogo{
+		margin-right: 20px;
+	}
+}
+
+@media all and (max-width: 1081px){
+	#mainHeader{
+		height: 70px;
+		line-height: 65px;
+	}
+	#logo{
+		width: 100%;
+		float: none;
+		margin:0px auto;
+		text-align: left;
+		margin-bottom: 53px;		
+	}
+	#menu{
+		float: none;
+		margin: 0px auto;
+	}
+	#logo h1{
+		font-size: 40px;
+		margin-top: 28px;
+	}
+
+	#imgLogo {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 40px;
+	}
+}	
+
+@media all and (max-width: 1081px){
+	#mainHeader{
+		height: 70px;
+		line-height: 65px;
+	}
+	#logo{
+		width: 100%;
+		float: none;
+		margin:0px auto;
+		text-align: left;
+		margin-bottom: 20px;		
+	}
+	#menu{
+		width: 100%;
+		float: none;
+		margin: 0px auto;
+	}
+	#logo h1{
+		font-size: 30px;
+		margin-top: 28px;
+	}
+
+	#imgLogo {
+    width: 90px;
+    height: 90px;
+	}
+
+	#slider{
+		overflow: hidden;/*Que se oculte lo que salga de dimensiones*/
+		height: 98px;
+
+	}
+	#slider h2{
+		font-size: 25px;
+	}
+}
+
+@media all and (max-width: 780px){
+	.service, .video{
+		width: 70%;
+		float: none;
+		margin: 0px auto;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	.service img{
+		margin-bottom: 10px;
+	}
+
+	.service p, .video p{
+		margin-top: 10px;
+	}
+
+	.video iframe{
+		width: 80%;
+		height: 230px;
+	}
+
+}
+
+
+@media all and (max-width: 615px){
+	#slider h2{
+    font-size: 22px;
+	}
+}
+
+@media all and (max-width: 540px){
+	#slider {
+    	height: 83px;
+	}
+	#slider h2{
+    font-size: 20px;
+	}
+	#menu ul li{
+		margin-left: 35px;
+		margin-right: -19px;
+		margin-bottom: 5px;
+		text-align: center;
+		font-size: 18px;
+		height: 47px;
+	}
+}
+
+@media all and (max-width: 487px){
+	#slider h2{
+    	font-size: 18px;
+	}
+	#menu ul li{
+		margin-left: 28px;
+		font-size: 16px;		
+	}
+}
+
+
+@media all and (max-width: 447px){
+	#imgLogo {
+	    width: 90px;
+	    height: 90px;
+	}
+
+	#logo h1{
+		font-size: 25px;
+		margin-top: 10px;
+	}
+}
+
+@media all and (max-width: 413px){
+	#menu ul li{
+		margin-left: 32px;
+		font-size: 13px;
+	}
+	#slider{
+		height: 70px;
+	}
+
+	#slider h2{
+		font-size: 15px;
+	}
+}
+
+@media all and (max-width: 391px){
+	#logo h1{
+		font-size: 21px;
+	}
+
+	#menu ul li{
+		text-align: center;
+		display: inline-block;
+		margin-left: 26px;
+	}
+}
+
+@media all and (max-width: 370px){
+	
+	#imgLogo{
+		width: 80px;
+		height: 80px;
+	}
+
+	#menu ul li{
+		margin-left: 44px;
+	}
+
+	#slider h2{
+		font-size: 14px;
+	}
+
+	.service, .video{
+		width: 90%;
+	}
+
+	.video iframe{
+		width: 80%;
+		height: 140px;
+	}
+}
+
+@media all and (max-width: 358px){
+	
+	#logo h1{
+		font-size: 18px;
+	}
+
+	#slider{
+		height: 53px;
+	}
+
+	#slider h2{
+		font-size: 13px;
+	}
+}
+
+@media all and (max-width: 358px){
+	
+	#imgLogo{
+		width: 70px;
+		height: 70px;
+	}
+
+	#logo h1{
+		font-size: 17px;
+	}
+
+	#slider{
+		height: 50px;
+	}
+
+	#slider h2{
+		font-size: 12px;
+	}
+}
+
+@media all and (max-width: 310px){
+	
+
+	#logo h1{
+		font-size: 15px;
+	}
+
+	#menu ul li{
+		margin-left: 37px;
+	}
+
+	#slider h2{
+		font-size: 12px;
+	}
+}
