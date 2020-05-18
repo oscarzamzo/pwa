@@ -4,9 +4,9 @@ const CACHE_NAME="V1_cache_Rentas_y_Rentas_sw";
 
 // Ficheros a cachear en las aplicacion
 var urlsToCache=[
-	'./',
-	'./css/estilos.css',
-	'./img/favicon.png'/*,
+	'../',
+	'../css/estilos.css',
+	'../img/favicon.png'/*,
 	'../img/1.png',
 	'../img/2.png',
 	'../img/3.png',
