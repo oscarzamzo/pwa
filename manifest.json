@@ -6,16 +6,16 @@
 	"theme_color": "#FB314E",
 	"orientation":"portrait",
 	"display": "standalone",
-	// Raro1
-	"start_url": "../index.html?utm_source=web_app_manifest",
+	// Raro1 este es el bueno
+	"start_url": ".../index.html?utm_source=web_app_manifest",
 	"scope":"../",
-	"lang":"es-ES", 
+	"lang":"es.-ES", 
 	"icons": [
 		{
-			"src": "../img/favicon-1024.png",
+			"src": ".../img/favicon-1024.png",
 			"sizes": "1024x1024",
 			"type": "image/png"
-		},
+		}/*,
 		{
 			"src":"../img/favicon-512.png",
 			"size":"512x512",
@@ -66,6 +66,6 @@
 			"src":"../img/favicon-16.png",
 			"size":"16x16",
 			"type":"image/png"
-		}
+		}*/
 	]
 }
