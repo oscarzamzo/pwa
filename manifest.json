@@ -6,7 +6,7 @@
 	"theme_color": "#FB314E",
 	"orientation":"portrait",
 	"display": "standalone",
-	// Raro1 este es el bueno
+	// Raro1 este es el bueno ??
 	"start_url": ".../index.html?utm_source=web_app_manifest",
 	"scope":"../",
 	"lang":"es.-ES", 
