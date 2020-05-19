@@ -7,12 +7,12 @@
 	"orientation":"portrait",
 	"display": "standalone",
 	// Raro1 este es el bueno 
-	"start_url": "index.html?utm_source=web_app_manifest",
-	"scope":"../",
+	"start_url": "./index.html?utm_source=web_app_manifest",
+	"scope":"./",
 	"lang":"es.-ES", 
 	"icons": [
 		{
-			"src": "img/favicon-1024.png",
+			"src": "./img/favicon-1024.png",
 			"sizes": "1024x1024",
 			"type": "image/png"
 		}/*,
