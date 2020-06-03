@@ -45,6 +45,17 @@
 
 	<!--JavaScripr -->
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/Geolocalizacion.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARPPKKoDn38JhLoUun5rvZwoab46jNMS0" ></script>
+	<!--
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUkAGfh2TVN211KEYq66UZBcjKhJDvtB0" ></script>
+	-->
+	<!--
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUkAGfh2TVN211KEYq66UZBcjKhJDvtB0&callback=initMap&signed_in=true"
+  type="text/javascript"></script>
+-->
+	<!--<script type="text/javascript" src="js/sw.js"></script>-->
 </head>
 <body>
 	<header id="mainHeader">
@@ -105,16 +116,118 @@
 		</div><!-- End Servicios -->		
 	</div>
 	<div class="clearfix"></div>
+	<div class="Maps">
+		<div class="container">
+			<input type="button" name="buscar" onclick="fnGeolocalizacion()" value="Click me">
+			<div id="maps"></div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
 	<div class="videos">
 		<div class="container">
-			<h2 class="subHeader">Videos</h2>
-			<div class="video">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57481.550730991636!2d-109.0255454473879!3d25.783874145174146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ba2f42b635eac3%3A0xb624c34752328808!2sLos%20Mochis%2C%20Sin.!5e0!3m2!1ses!2smx!4v1590021005590!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<h2 class="subHeader">En Renta</h2>
+			<div class="galeria">				
+					<!--<img src="img\Casa 1\Fachaza.jpg" width="460" height="215"></img>-->	
+				<p class="TituloImagnes">Colonia <strong>Buenos Aires</strong>
+				</p>
+					<img src="img\Casa 1\Fachaza.jpg">	
+				<p class="Descripcion">
+					1 Planta<br>
+					2 recamaras<br>
+					Sala Cocina y Comedor<br>
+					<strong>Costo Renta $ 3,000.00</strong>
+				</p>
+				
+			</div>
+			<div class="galeria">				
+					<!--<img src="img\Casa 1\Fachaza.jpg" width="460" height="215"></img>-->	
+				<p class="TituloImagnes">Colonia <strong>Buenos Aires</strong>
+				</p>
+					<img src="img\Casa2\Fachaza.jpg">	
+				<p class="Descripcion">
+					1 Planta<br>
+					2 recamaras<br>
+					Sala Cocina y Comedor<br>
+					<strong>Costo Renta $ 3,000.00</strong>
+				</p>
+				
+			</div>
+			<div class="galeria">				
+					<!--<img src="img\Casa 1\Fachaza.jpg" width="460" height="215"></img>-->	
+				<p class="TituloImagnes">Colonia <strong>Buenos Aires</strong>
+				</p>
+					<img src="img\Casa3\Fachaza.jpg">	
+				<p class="Descripcion">
+					1 Planta<br>
+					2 recamaras<br>
+					Sala Cocina y Comedor<br>
+					<strong>Costo Renta $ 3,000.00</strong>
+				</p>
+				
+			</div>
+			<div class="galeria">				
+					<!--<img src="img\Casa 1\Fachaza.jpg" width="460" height="215"></img>-->	
+				<p class="TituloImagnes">Colonia <strong>Buenos Aires</strong>
+				</p>
+					<img src="img\Casa 1\Fachaza.jpg">	
+				<p class="Descripcion">
+					1 Planta<br>
+					2 recamaras<br>
+					Sala Cocina y Comedor<br>
+					<strong>Costo Renta $ 3,000.00</strong>
+				</p>
+				
+			</div>
+			<div class="galeria">				
+					<!--<img src="img\Casa 1\Fachaza.jpg" width="460" height="215"></img>-->	
+				<p class="TituloImagnes">Colonia <strong>Buenos Aires</strong>
+				</p>
+					<img src="img\Casa 1\Fachaza.jpg">	
+				<p class="Descripcion">
+					1 Planta<br>
+					2 recamaras<br>
+					Sala Cocina y Comedor<br>
+					<strong>Costo Renta $ 3,000.00</strong>
+				</p>
+				
+			</div>
+			<div class="galeria">				
+					<!--<img src="img\Casa 1\Fachaza.jpg" width="460" height="215"></img>-->	
+				<p class="TituloImagnes">Colonia <strong>Buenos Aires</strong>
+				</p>
+					<img src="img\Casa 1\Fachaza.jpg">	
+				<p class="Descripcion">
+					1 Planta<br>
+					2 recamaras<br>
+					Sala Cocina y Comedor<br>
+					<strong>Costo Renta $ 3,000.00</strong>
+				</p>
+				
+			</div>
+			<div class="galeria">				
+					<!--<img src="img\Casa 1\Fachaza.jpg" width="460" height="215"></img>-->	
+				<p class="TituloImagnes">Colonia <strong>Buenos Aires</strong>
+				</p>
+					<img src="img\Casa 1\Fachaza.jpg">	
+				<p class="Descripcion">
+					1 Planta<br>
+					2 recamaras<br>
+					Sala Cocina y Comedor<br>
+					<strong>Costo Renta $ 3,000.00</strong>
+				</p>
 				
 			</div>
 			<!--
 			<div class="video">
-				<iframe width="800" height="800" src="https://www.youtube.com/embed/qpJIJrWz0vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/HppkhRwTmXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<p>
+					Sinceramente no me gusta el género norteño o los corridos, pero ustedes me han hecho cambiar de parecer, me encanto su canción, Dios los bendiga, éxito en todo hermanos.
+				</p>
+				
+			</div>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qpJIJrWz0vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 				<p>
 					Bendiciones ! Les dejamos este nuevo proyecto en vivo desde SG studios en Fort Worth Texas. Esperen mas videos completamente en vivo ! Y Cristo Viveee! 
@@ -129,7 +242,7 @@
 					POPURRI ROCA FIRME CHOIX SINALOA
 				</p>
 				
-			</div>-->
+			</div> -->
 		</div>
 	</div><!-- End Videos -->
 	<div class="clearfix"></div>
