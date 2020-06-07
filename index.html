@@ -48,6 +48,17 @@
 	<script type="text/javascript" src="js/Geolocalizacion.js"></script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARPPKKoDn38JhLoUun5rvZwoab46jNMS0" ></script>
+
+	<!--Modal-->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	 <script type="text/javascript" src="Librerias/pgwslideshow.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Librerias/pgwslideshow.min.css">
+	<script type="text/javascript" src="js/galeria.js"></script>
+
 	<!--
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUkAGfh2TVN211KEYq66UZBcjKhJDvtB0" ></script>
 	-->
@@ -217,32 +228,37 @@
 				</p>
 				
 			</div>
-			<!--
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/HppkhRwTmXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<!--MODAL-->
+			<button type="button" class="abrir btn btn-primary">
+			  Abrir con doble click
+			</button>
 
-				<p>
-					Sinceramente no me gusta el género norteño o los corridos, pero ustedes me han hecho cambiar de parecer, me encanto su canción, Dios los bendiga, éxito en todo hermanos.
-				</p>
-				
+			<div class="modal" tabindex="-1" role="dialog">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title">Modal title</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        <!--Galeria-->
+			        <ul class="pgwSlideshow">
+					    <li><img src="img/Casa1/Fachaza.jpg" alt="San Francisco, USA" data-description="Golden Gate Bridge"></li>
+					    <li><img src="img/Casa1/sala comedor.jpg" alt="Rio de Janeiro, Brazil"></li>
+					    <li><img src="img/Casa1/Cuarto.jpg" alt=""> </li>
+					    <li><img src="img/Casa1/Baño.jpg" alt=""></li>
+					</ul>
+
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+			      </div>
+			    </div>
+			  </div>
 			</div>
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/qpJIJrWz0vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-				<p>
-					Bendiciones ! Les dejamos este nuevo proyecto en vivo desde SG studios en Fort Worth Texas. Esperen mas videos completamente en vivo ! Y Cristo Viveee! 
-					Siguenos en nuestras redes sociales
-				</p>
-				
-			</div>
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/SXFoJOJBJAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-				<p>
-					POPURRI ROCA FIRME CHOIX SINALOA
-				</p>
-				
-			</div> -->
 		</div>
 	</div><!-- End Videos -->
 	<div class="clearfix"></div>
