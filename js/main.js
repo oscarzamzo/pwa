@@ -13,6 +13,11 @@ if("serviceWorker" in navigator){
 
 }
 
+$(".abrir").on("dblclick", function() {
+
+  $(".modal").modal("show");
+
+});
 
 $(document).ready(function(){
 	/*alert("Hola Mundo...!!");*/
@@ -27,4 +32,6 @@ $(document).ready(function(){
 
 		return false;
 	});
+
+
 });
