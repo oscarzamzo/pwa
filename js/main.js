@@ -5,7 +5,7 @@ if("serviceWorker" in navigator){
 	console.log("Puedes usar Service Worker");
 
 	//navigator.serviceWorker.register("./js/ServicioWorker.js")
-	navigator.serviceWorker.register("./js/sw.js")
+	navigator.serviceWorker.register("sw.js")
 	.then(res=> console.log("ServiceWorker cargado correctamente",res))
 	.catch(err=> console.log("No se pudo cargar el ServiceWorker",err))
 }else{
