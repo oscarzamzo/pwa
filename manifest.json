@@ -6,8 +6,8 @@
 	"theme_color": "#FB314E",
 	"orientation":"portrait",
 	"display": "standalone",
-	"start_url": "pwa/index.html?utm_source=web_app_manifest",
-	"scope":"pwa/",
+	"start_url": "./index.html?utm_source=web_app_manifest",
+	"scope":"./",
 	"lang":"es-ES",
 	"icons":[
 		{
