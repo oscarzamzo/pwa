@@ -5,8 +5,8 @@ const CACHE_NAME="V2_cache_Rentas_y_Rentas_sw2";
 // Ficheros a cachear en las aplicacion parece que este no es
 var urlsToCache=[
 	'../',
-	'../pwa/css/estilos.css',
-	'../pwa/img/favicon.png'/*,
+	'../css/estilos.css',
+	'../img/favicon.png'/*,
 	'./img/1.png',
 	'./img/2.png',
 	'./img/3.png',
