@@ -181,6 +181,42 @@ body{
 	font-size: 20px;
 	text-align: center;
 }
+/*BOTONES*/
+.Botones {
+	width: 40%;
+    float: left;
+    border: 1px solid #FB314E;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.Link {
+	color: blue;
+	width: 40%;
+    float: left;
+    /*border: 1px solid #FB314E;*/
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+
+}
+
+.Botones:hover{
+	 border: 1px solid white;
+	 background: #FB314E;
+	 color: white;
+	 opacity: 0.8;
+	 transform: scale(1.1,1.1);
+}
+
+.Link:hover{
+	 border: 1px solid blue ;
+
+	 color: red;
+	 opacity: 0.8;
+	 transform: scale(1.1,1.1);
+}
 
 
 /* Media Query 
